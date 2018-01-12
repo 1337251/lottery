@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <title> 2018年会抽奖系统</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/lottery.css">
+</head>
+<body>
+    <div class="backhome" onclick="backHome()">
+        <img src="./../images/back_home.png" alt="">
+    </div>
+    <div class="content" id="mystical">
+        <div class="picture">
+            <img class="rotate" src="./../images/iphonex.png" alt="">
+            <span>iphone x</span>
+        </div>
+        <div class="level">
+            <span>神秘大奖</span>
+        </div>
+        <div class="number">
+            <input type="text" id="mystical_val">
+        </div>
+    </div>
+    <div class="content" id="special">
+        <div class="picture">
+            <img class="rotate" src="./../images/iphonex.png" alt="">
+            <span>iphone x</span>
+        </div>
+        <div class="level">
+            <span>特等奖</span>
+        </div>
+        <div class="number">
+            <input type="text" id="special_val">
+        </div>
+    </div>
+    <div class="content" id="first">
+        <div class="picture">
+            <img class="rotate" src="./../images/iphone8.png" alt="">
+            <span>iphone 8</span>
+        </div>
+        <div class="level">
+            <span>一等奖</span>
+        </div>
+        <div class="number">
+            <input type="text" id="first_val">
+        </div>
+    </div>
+    <div class="content" id="second1">
+        <div class="picture">
+            <img class="rotate" src="./../images/ipad.png" alt="">
+            <span>ipad</span>
+        </div>
+        <div class="level">
+            <span>二等奖</span>
+        </div>
+        <div class="number">
+            <input type="text" id="second1_val">
+        </div>
+    </div>
+    <div class="content" id="second2">
+        <div class="picture">
+            <img class="rotate" src="./../images/sony.png" alt="">
+            <span style="margin-top: 50px;font-size: 27px;">SONY Xperia XZ1</span>
+        </div>
+        <div class="level">
+            <span>二等奖</span>
+        </div>
+        <div class="number">
+            <input type="text" id="second2_val">
+        </div>
+    </div>
+    <div class="content" id="third">
+        <div class="picture">
+            <img style="width:190px;" src="./../images/airclean.png" alt="">
+            <span style="margin-top: 45px;font-size: 30px;">空气净化器</span>
+        </div>
+        <div class="level">
+            <span>三等奖</span>
+        </div>
+        <div class="two-content">
+            <input type="text" id="third_val_1">
+            <input type="text" id="third_val_2">
+        </div>
+    </div>
+    <div class="content" id="four">
+        <div class="picture">
+            <img class="rotate" src="./../images/floorclean.png" alt="">
+            <span style="margin-top: 50px;font-size: 36px;">扫地机器人</span>
+        </div>
+        <div class="level">
+            <span>四等奖</span>
+        </div>
+        <div class="number">
+            <input type="text" id="four_val">
+        </div>
+    </div>
+    <div class="content" id="five">
+        <div class="picture">
+            <img src="./../images/cleaner.png" alt="">
+            <span>吸尘器</span>
+        </div>
+        <div class="level">
+            <span>五等奖</span>
+        </div>
+        <div class="two-content">
+            <input type="text" id="five_val_1">
+            <input type="text" id="five_val_2">
+        </div>
+    </div>
+    <div id="six" class="special-content">
+        <div class="lucky-level">
+            <span>购物卡</span>
+            <span class="frame" style="font-size: 80px;padding: 0px 50px;">六等奖</span>
+            <span>100元</span>
+        </div>
+        <div class="six-content" id='six_val'>
+        </div>
+    </div>
+    <div id="sunshine" class="special-content">
+        <div class="lucky-level">
+            <span class="frame" style="font-size: 80px"> 阳光普照奖 </span>
+        </div>
+        <div class="lucky-content" id="sunshine_val">
+        </div>
+    </div>
+    <div class="custom">
+        <input type="text" id="custom">
+    </div>
+    <div class="button" id="start" onclick="start()">
+        <img src="./../images/start.png" alt="">
+    </div>
+    <div class="button" id="stop" style="display:none" onclick="stop()">
+        <img src="./../images/stop.png" alt="">
+    </div>
+    
+    <script type="text/javascript" src="/javascripts/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="/javascripts/loterry.js"></script>
+ </body>
+</html>
